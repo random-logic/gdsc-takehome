@@ -1,7 +1,7 @@
 export type SpacerProps = {
   rem: number;
-}
+};
 
-export default function Spacer({rem}: SpacerProps) {
-  return <div className={`py-[${rem}rem]`}></div>;
+export default function Spacer({ rem }: SpacerProps) {
+  return <div style={{ paddingTop: `${rem}rem`, paddingBottom: `${rem}rem` }}></div>;
 }

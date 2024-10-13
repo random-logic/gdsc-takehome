@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.body {
+  @apply bg-white;
+}
+
 .h1 {
   @apply font-nunito-sans text-h1;
 }
@@ -28,8 +32,32 @@
   @apply font-nunito-sans text-p3;
 }
 
+.button-emphasized {
+  @apply px-[2rem] py-[0.75rem] flex justify-center items-center bg-blue rounded-[0.5rem];
+}
+
+.button-emphasized-text {
+  @apply p3 text-white font-bold;
+}
+
+.button {
+  @apply px-[2rem] py-[0.75rem] flex justify-center items-center border border-blue rounded-[0.5rem];
+}
+
+.button-text {
+  @apply p3 text-blue font-bold;
+}
+
+.px-edge {
+  @apply px-[8.75rem];
+}
+
+.content {
+  @apply max-w-7xl; /* TODO: Use so the content does not look too wide */
+}
+
 .navbar {
-  @apply box-border px-[8.75rem] py-[2.5rem] flex justify-between items-center flex-grow flex-shrink-0 basis-0;
+  @apply box-border px-edge py-[2.5rem] flex justify-between items-center flex-grow flex-shrink-0 basis-0;
 }
 
 .menu-options {
@@ -37,7 +65,7 @@
 }
 
 .menu-option {
-  @apply text-grey p2 not-italic font-semibold leading-[1.4]
+  @apply text-grey p2 not-italic font-semibold leading-[1.4];
 }
 
 .menu-option-emphasized-button {
@@ -46,4 +74,8 @@
 
 .menu-option-emphasized-text {
   @apply text-white p2 not-italic font-semibold leading-[1.4];
+}
+
+.columns {
+  @apply px-edge flex justify-between items-center;
 }
