@@ -3,5 +3,5 @@ export type SpacerProps = {
 };
 
 export default function Spacer({ rem }: SpacerProps) {
-  return <div style={{ paddingTop: `${rem}rem`, paddingBottom: `${rem}rem` }}></div>;
+  return <div style={{ paddingTop: `${rem}rem` }}></div>;
 }

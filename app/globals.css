@@ -33,7 +33,7 @@
 }
 
 .button-emphasized {
-  @apply px-[2rem] py-[0.75rem] flex justify-center items-center bg-blue rounded-[0.5rem];
+  @apply px-[2rem] py-[0.75rem] bg-blue rounded-[0.5rem];
 }
 
 .button-emphasized-text {
@@ -41,7 +41,7 @@
 }
 
 .button {
-  @apply px-[2rem] py-[0.75rem] flex justify-center items-center border border-blue rounded-[0.5rem];
+  @apply px-[2rem] py-[0.75rem] border-[1.5px] border-blue rounded-[0.5rem];
 }
 
 .button-text {
