@@ -49,11 +49,11 @@
 }
 
 .px-edge {
-  @apply px-[8.75rem];
+  @apply px-[2rem] sm:px-[3rem] md:px-[4rem] lg:px-[6rem] xl:px-[8.75rem];
 }
 
 .content {
-  @apply max-w-7xl; /* TODO: Use so the content does not look too wide */
+  @apply max-w-[72.5rem];
 }
 
 .navbar {
@@ -77,5 +77,9 @@
 }
 
 .columns {
-  @apply px-edge flex justify-between items-center;
+  @apply flex justify-between items-center;
+}
+
+.column {
+  @apply flex-1;
 }
