@@ -3,7 +3,7 @@ import Button from "@/components/Button";
 
 export default function WhyJoin() {
   return <div className="max-w-[36rem]">
-    <h2 className="h2">Why join the Product Cohort?</h2>
+    <h2 className="h2 font-bold">Why join the Product Cohort?</h2>
     <Spacer rem={1.5} />
     <p className="p1 text-dark-blue font-bold">Because we turn your skills into tangible results!</p>
     <Spacer rem={1.25} />
