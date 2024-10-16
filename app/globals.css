@@ -20,6 +20,10 @@
   @apply font-nunito-sans text-h3;
 }
 
+.p {
+  @apply font-nunito-sans;
+}
+
 .p1 {
   @apply font-nunito-sans text-p1;
 }
@@ -53,7 +57,7 @@
 }
 
 .content {
-  @apply max-w-[72.5rem];
+  @apply max-w-[72.5rem] w-[100%];
 }
 
 .navbar {
@@ -82,4 +86,8 @@
 
 .column {
   @apply flex-1;
+}
+
+.footer {
+  @apply bg-footer-white py-[2.5rem];
 }
