@@ -2,7 +2,7 @@ import Spacer from "@/components/Spacer";
 import Button from "@/components/Button";
 
 export default function CohortDesc() {
-  return <div className="pr-[3.44rem]">
+  return <div className="lg:pr-[3.44rem]">
     <p className="p1 text-dark-blue font-bold leading-[120%]">Build Real-World Products with the</p>
     <h1 className="h1 font-extrabold leading-[120%]">UC Davis <br /> Product Cohort</h1>
     <Spacer rem={1.25} />

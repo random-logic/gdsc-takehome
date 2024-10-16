@@ -12,7 +12,7 @@ export default function Section2() {
         <WhyJoin />
       </Column>
       <Column>
-        <Image src={diversity} alt="diversity" className="pl-[2.75rem]"/>
+        <Image src={diversity} alt="diversity" className="lg:pl-[2.75rem]"/>
       </Column>
     </Columns>
   </Section>;

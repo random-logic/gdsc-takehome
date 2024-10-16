@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .body {
-  @apply bg-white;
+  @apply bg-white min-w-[320px];
 }
 
 .h1 {
@@ -53,7 +53,7 @@
 }
 
 .px-edge {
-  @apply px-[2rem] sm:px-[3rem] md:px-[4rem] lg:px-[6rem] xl:px-[8.75rem];
+  @apply px-[1rem] sm:px-[2rem] md:px-[4rem] lg:px-[6rem] xl:px-[8.75rem];
 }
 
 .content {
@@ -61,7 +61,7 @@
 }
 
 .navbar {
-  @apply box-border px-edge py-[2.5rem] flex justify-between items-center flex-grow flex-shrink-0 basis-0;
+  @apply py-[2.5rem] flex flex-col md:flex-row justify-between items-center gap-[2.5rem];
 }
 
 .menu-options {
