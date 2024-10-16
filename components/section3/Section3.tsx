@@ -9,7 +9,7 @@ import Spacer from "@/components/Spacer";
 
 export default function Section3() {
   return <Section>
-    <Columns>
+    <Columns sm_reversed>
       <Column>
         <div className="pr-[3.75rem]">
           <Image src={benefits1} alt="benefits 1" className="rounded-[0.5rem]" />
