@@ -10,7 +10,7 @@ export default function Columns({ children, sm_reversed }: ColumnsProps) {
     ? <div className="columns flex-col-reverse lg:flex-row gap-[2rem] lg:gap-0">
         {children}
     </div>
-    : <div className="columns flex-col lg:flex-row gap-[2rem]">
+    : <div className="columns flex-col lg:flex-row gap-[2rem] lg:gap-0">
         {children}
     </div>;
 }
