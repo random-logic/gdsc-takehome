@@ -11,5 +11,5 @@ export default function MenuOptions({ items }: MenuOptionProps) {
         <MenuOption key={idx} {...item} />
       ))
     }
-  </div>
+  </div>;
 }
